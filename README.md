@@ -1,1 +1,124 @@
-https://codesandbox.io/p/devbox/docker-apache-load-test-aiohttp-l2396z?file=%2Fload-test.txt&layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522clrf6bcsv00062v6kglk3xarz%2522%252C%2522sizes%2522%253A%255B70%252C30%255D%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522id%2522%253A%2522clrf6bcsv00022v6k4lid4g24%2522%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522SHELLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522id%2522%253A%2522clrf6bcsv00042v6kkqxp4vwt%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522id%2522%253A%2522clrf6bcsv00052v6kn61e1uv8%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B50%252C50%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522clrf6bcsv00022v6k4lid4g24%2522%253A%257B%2522id%2522%253A%2522clrf6bcsv00022v6k4lid4g24%2522%252C%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clrf7s5w9002a2v6kqcws97h0%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252Fload-test.txt%2522%252C%2522state%2522%253A%2522IDLE%2522%257D%255D%252C%2522activeTabId%2522%253A%2522clrf7s5w9002a2v6kqcws97h0%2522%257D%252C%2522clrf6bcsv00052v6kn61e1uv8%2522%253A%257B%2522id%2522%253A%2522clrf6bcsv00052v6kn61e1uv8%2522%252C%2522tabs%2522%253A%255B%257B%2522type%2522%253A%2522SANDBOX_INFO%2522%252C%2522id%2522%253A%2522clrf7p6nf01qz2v6k2k55bpbu%2522%252C%2522mode%2522%253A%2522permanent%2522%257D%255D%252C%2522activeTabId%2522%253A%2522clrf7p6nf01qz2v6k2k55bpbu%2522%257D%252C%2522clrf6bcsv00042v6kkqxp4vwt%2522%253A%257B%2522id%2522%253A%2522clrf6bcsv00042v6kkqxp4vwt%2522%252C%2522activeTabId%2522%253A%2522clrf6k2fi00m12v6kjjqkef6d%2522%252C%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clrf6k2fi00m12v6kjjqkef6d%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clrf6k2k0000iefha29liab7c%2522%257D%252C%257B%2522id%2522%253A%2522clrf78m6200r72v6kr5r217bn%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clrf78mbs000jefha1gqr8yyj%2522%257D%252C%257B%2522id%2522%253A%2522clrf7cost00vz2v6ks764sl7o%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clrf7cozc000kefhago192aj9%2522%257D%252C%257B%2522id%2522%253A%2522clrf7dcx2012v2v6khqn3cmwr%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clrf7dd51000lefhadh9bd0rn%2522%257D%255D%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showShells%2522%253Atrue%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D
+Creating a Docker container to test 1 million connections involves setting up a server inside the container that can handle a large number of concurrent connections. Below is a basic example using a simple Python script with the `aiohttp` library to create an HTTP server that can handle multiple connections concurrently.
+
+1. **Create a Dockerfile:**
+   Create a file named `Dockerfile` with the following content:
+
+   ```Dockerfile
+   FROM python:3.9
+
+   WORKDIR /app
+
+   COPY requirements.txt .
+   RUN pip install --no-cache-dir -r requirements.txt
+
+   COPY server.py .
+
+   CMD ["python", "server.py"]
+   ```
+
+   This Dockerfile sets up a Python environment, installs the required dependencies specified in `requirements.txt`, and runs the `server.py` script when the container starts.
+
+2. **Create a requirements.txt file:**
+   Create a file named `requirements.txt` with the following content:
+
+   ```
+   aiohttp==3.8.1
+   ```
+
+   This file specifies the version of the `aiohttp` library that will be installed in the Docker container.
+
+3. **Create the server.py script:**
+   Create a file named `server.py` with the following content:
+
+   ```python
+   import aiohttp
+   from aiohttp import web
+
+   async def handle(request):
+       return web.Response(text="Hello, world!")
+
+   app = web.Application()
+   app.router.add_get('/', handle)
+
+   if __name__ == "__main__":
+       aiohttp.web.run_app(app, port=8080)
+   ```
+
+   This script creates a simple HTTP server using `aiohttp` that responds with "Hello, world!" to incoming requests.
+
+4. **Build and Run the Docker Container:**
+   Open a terminal and navigate to the directory containing your Dockerfile, `requirements.txt`, and `server.py`. Run the following commands:
+
+   ```bash
+   docker build -t aiohttp-server .
+   docker run -p 8080:8080 aiohttp-server
+   ```
+
+   This will build the Docker image and run a container based on that image. The server will be accessible at `http://localhost:8080/`.
+
+5. **Test with Many Connections:**
+   To test the server with many connections, you can use a tool like Apache Benchmark (`ab`) or `wrk`. For example:
+
+   ```bash
+   ab -n 1000000 -c 100 http://localhost:8080/
+   ```
+
+   This command will send 1 million requests to the server with a concurrency of 100.
+
+Note: This is a basic example, and in a real-world scenario, you might need to consider more factors, such as load balancing, scaling, and optimizing the server code for better performance. Also, ensure that your system resources are sufficient for handling a large number of connections.
+
+6. **To install apache Benchmark(`ab`)**
+    You can follow these steps based on your operating system:
+
+### For Ubuntu/Debian Linux:
+
+```bash
+sudo apt-get update
+sudo apt-get install apache2-utils
+```
+
+### For CentOS/RHEL Linux:
+
+```bash
+sudo yum install httpd-tools
+```
+
+### For macOS:
+
+If you have Homebrew installed, you can use:
+
+```bash
+brew install httpd
+```
+
+### For Windows:
+
+For Windows users, `ab` is often included with the Apache HTTP Server installation. You can download the Apache HTTP Server from the official Apache website (https://httpd.apache.org/), install it, and then find the `ab` executable in the `bin` directory.
+
+After installing `ab`, you can verify the installation by running:
+
+```bash
+ab -V
+```
+
+This command should display the version information of Apache Benchmark.
+
+Now, you can use `ab` to perform load testing on your server. For example:
+
+```bash
+ab -n 1000 -c 10 http://localhost:8080/
+```
+
+This command sends 1000 requests with a concurrency of 10 to the specified URL. Adjust the URL and parameters based on your specific testing needs.
+
+7. **To check the stats**
+On docker
+```bash
+docker stats
+```
+
+on system
+```bash
+htop
+top
+```
